@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-body {
+main {
     margin: 0px;
     font-family: Arial, sans-serif;
 }
@@ -15,4 +15,8 @@ p, a, li {
 
 .container {
     display: grid;
+}
+
+body h1 {
+    font-family: 'Monoton', cursive;
 }
