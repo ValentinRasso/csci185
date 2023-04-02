@@ -1,13 +1,114 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation&family=Passion+One:wght@700&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
 
 body * {
     box-sizing: border-box;
+
 }
 
 body {
-    margin: 0;
+    margin: 0px;
 }
 
 /* Your CSS Code Here! */
+/*
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background: #F4F4F4;
+}*/
+
+#about {
+    padding: 60px 15vw; 
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 250px;
+    justify-content: space-between; 
+    padding: 10px 15px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: seagreen;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#projects{
+    padding: 60px 15vw;
+}
+
+body #profile-pic {
+    border-radius: 50%;
+}
+
+
+body h1 {
+    font-family: 'Delicious Handrawn', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.project-holder {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    margin-bottom: 65px;
+    margin-right: 200px;
+}
+
+body h2, h3 {
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+body p {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 20px;
+}
+
+#contact {
+    columns: 2;
+    padding: 65px 15vw;
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and(max-width: 800px){
+    
+}
