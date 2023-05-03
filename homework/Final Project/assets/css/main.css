@@ -2427,3 +2427,29 @@ input, select, textarea {
 			}
 
 	}
+
+	.boca {
+		margin: 100px;
+		border: black;
+	}
+	
+	.la-boca {
+		margin: 50px;
+	}
+
+	.jugador12 {
+		margin: 10px;
+	}
+	.video12 {
+		margin-left: 75px;
+	}
+
+	.album {
+		margin: 10px;
+		display:inline-block;
+	}
+
+	.album:hover {
+		opacity: 1;
+		transform: rotate(3deg);
+	}

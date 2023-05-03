@@ -33,7 +33,12 @@ function showImage() {
 */
 function forward() {
     console.log('forward');
+    const forwardBtn = document.Queryselector('.forward');
+    forwardBtn.addEventListener('click', forward);
     ++idx;
+    if (idx >= photos.length){
+        idx = 0;
+    }
     showImage();
 }
 
@@ -46,6 +51,8 @@ function forward() {
 */
 function back() {
     console.log('back');
+    const backBtn = document.GetElementById("back-btn");
+    backBtn.addEventListener("click", back)
     --idx;
     showImage();
 }

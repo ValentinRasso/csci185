@@ -42,7 +42,7 @@ function search() {
     if (data[i].Instructors.length > 0) {
         instructor = data[i].Instructors[0].Name;
     }
-    if (instructor.includes(searchTerm)) || data[i].Title.includes(searchTerm){
+    if (instructor.includes(searchTerm)) data[i].Title.includes(searchTerm);{
     document.querySelector('.courses').insertAdjacentHTML('beforeend', `
         <section class="course">
             <h2>${data[i].Code}: ${ data[i].Title }</h2>
